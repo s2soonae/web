@@ -17,6 +17,7 @@
     "tailwindcss": "^3.0.23",
     "@shadcn/ui": "latest",
     "tailwind-variants": "latest",
-    "clsx": "latest"
+    "clsx": "latest",
+    "lucide-react": "latest"
   }
 }
