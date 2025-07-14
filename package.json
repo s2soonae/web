@@ -8,16 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@shadcn/ui": "latest",
     "autoprefixer": "^10.4.2",
+    "clsx": "latest",
     "framer-motion": "^10.16.4",
+    "lucide-react": "latest",
     "next": "latest",
     "postcss": "^8.4.6",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "^3.0.23",
-    "@shadcn/ui": "latest",
     "tailwind-variants": "latest",
-    "clsx": "latest",
-    "lucide-react": "latest"
+    "tailwindcss": "^3.0.23",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
