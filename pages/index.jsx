@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -79,12 +79,4 @@ export default function Home() {
 
       <section className="text-center">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p className="mb-2">이메일: <a href="mailto:s2soonae@naver.com" className="underline">s2soonae@naver.com</a></p>
-        <p className="mb-6">유튜브: <a href="https://www.youtube.com/@purelove-soonae" className="underline">@purelove-soonae</a></p>
-        <Button variant="outline" onClick={() => window.location.href = 'mailto:s2soonae@naver.com'}>
-          메일 보내기
-        </Button>
-      </section>
-    </main>
-  );
-}
+        <p className="mb-2">이메일: <a href="mailto:s2soonae@naver.com" className="underline">s2soonae@naver.com</a><
