@@ -1,5 +1,5 @@
-import { Card, CardContent } from "../components/ui/card";
-import { Button } from "../components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -51,32 +51,4 @@ export default function Home() {
 
       <section className="mb-20">
         <h2 className="text-2xl font-semibold mb-6 text-center">포트폴리오</h2>
-        <div className="grid gap-6 md:grid-cols-2">
-          {portfolioList.map((item, i) => (
-            <Card key={i} className="bg-white">
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                <p>{item.desc}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="mb-20">
-        <h2 className="text-2xl font-semibold mb-6 text-center">공연 일정</h2>
-        <div className="grid gap-6 md:grid-cols-2">
-          {performanceList.map((item, i) => (
-            <Card key={i} className="bg-white">
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                <p>{item.date}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="text-center">
-        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p className="mb-2">이메일: <a href="mailto:s2soonae@naver.com" className="underline">s2soonae@naver.com</a><
+        <div className="grid
