@@ -20,7 +20,7 @@ export default function Home() {
   ];
 
   const portfolioList = [
-    { title: "너진똑 유튜브 채널 엔딩곡 참여", desc: "인문학 채널 '너진똑'의 불안 시리즈 2부 엔딩곡 참여." }
+    { title: "너진똑 유튜브 채널 엔딩곡 참여", desc: "유명 인문학 채널 '너진똑'의 불안 시리즈 2부 엔딩곡 참여." }
   ];
 
   return (
@@ -51,4 +51,44 @@ export default function Home() {
 
       <section className="mb-20">
         <h2 className="text-2xl font-semibold mb-6 text-center">포트폴리오</h2>
-        <div className="grid
+        <div className="grid gap-6 md:grid-cols-2">
+          {portfolioList.map((item, i) => (
+            <Card key={i} className="bg-white">
+              <CardContent className="p-4">
+                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                <p>{item.desc}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-20">
+        <h2 className="text-2xl font-semibold mb-6 text-center">공연 일정</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          {performanceList.map((item, i) => (
+            <Card key={i} className="bg-white">
+              <CardContent className="p-4">
+                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                <p>{item.date}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="text-center">
+        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+        <p className="mb-2">
+          이메일: <a href="mailto:s2soonae@naver.com" className="underline">s2soonae@naver.com</a>
+        </p>
+        <p className="mb-6">
+          유튜브: <a href="https://www.youtube.com/@purelove-soonae" className="underline">@purelove-soonae</a>
+        </p>
+        <Button variant="outline" onClick={() => window.location.href = 'mailto:s2soonae@naver.com'}>
+          메일 보내기
+        </Button>
+      </section>
+    </main>
+  );
+}
