@@ -12,10 +12,10 @@ export default function Home() {
     { title: "사랑이란 무어라고 생각하십니까", video: "https://www.youtube.com/embed/vgnZngee0-o", desc: "사랑의 의미를 묻는 진지한 질문을 담은 곡." },
     { title: "Blue Till I Die", video: "https://www.youtube.com/embed/_j3y2WsiPdA", desc: "작은 방에서도 큰 꿈을 꾸는 순애의 청춘송." },
     { title: "모험 (8bit)", video: "https://www.youtube.com/embed/Sh3OxoOmJTw", desc: "현실을 도피하고 싶지만 결국 다시 돌아오는 우리의 이야기." },
-    { title: "별꼬리", video: "https://www.youtube.com/embed/Ws17EXP52SI" },
-    { title: "눈사랑", video: "https://www.youtube.com/embed/Ud84sM958Zc" },
-    { title: "주름살", video: "https://www.youtube.com/embed/QOOOSnW5uKI" },
-    { title: "그래, 우리", video: "https://www.youtube.com/embed/LD6SzR4N60A" }
+    { title: "별꼬리", video: "https://www.youtube.com/embed/Ws17EXP52SI", desc: "" },
+    { title: "눈사랑", video: "https://www.youtube.com/embed/Ud84sM958Zc", desc: "" },
+    { title: "주름살", video: "https://www.youtube.com/embed/QOOOSnW5uKI", desc: "" },
+    { title: "그래, 우리", video: "https://www.youtube.com/embed/LD6SzR4N60A", desc: "" }
   ];
 
   const performanceList = [
