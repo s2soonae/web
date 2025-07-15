@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const musicList = [
-    { title: "청춘낙뢰", video: "https://www.youtube.com/embed/y0bTpAB6yVM", desc: "청춘의 계절에 피할 수 없게 찾아오는 번개같은 고난을 노래한 곡." },
-    { title: "악몽", video: "https://www.youtube.com/embed/RT_14dIo73k", desc: "수많은 악몽 속에서도 결국 빛나는 꿈으로 바꿔내고 싶은 의지를 담은 곡." },
-    { title: "High Tone Selector", video: "https://www.youtube.com/embed/EWwPS_6Zym4", desc: "비바람조차 내 기분을 좌지우지하지 못하는 자존감과 긍정의 노래." },
-    { title: "자판기 커피", video: "https://www.youtube.com/embed/xd5CW5XQZkI", desc: "자판기 커피처럼 작은 위안 속에서도 꿈을 향해 나아가는 현실 고백." },
-    { title: "바로 지금", video: "https://www.youtube.com/embed/ifDkpqxJvoo", desc: "사랑과 우정의 찰나, 바로 지금 이 순간을 기억하는 연인의 이야기." },
-    { title: "사랑이란 무어라고 생각하십니까", video: "https://www.youtube.com/embed/vgnZngee0-o", desc: "사랑의 의미를 묻는 진지한 질문을 담은 곡." },
-    { title: "Blue Till I Die", video: "https://www.youtube.com/embed/_j3y2WsiPdA", desc: "작은 방에서도 큰 꿈을 꾸는 순애의 청춘송." },
-    { title: "모험 (8bit)", video: "https://www.youtube.com/embed/Sh3OxoOmJTw", desc: "현실을 도피하고 싶지만 결국 다시 돌아오는 우리의 이야기." },
-    { title: "별꼬리", video: "https://www.youtube.com/embed/Ws17EXP52SI", desc: "" },
-    { title: "눈사랑", video: "https://www.youtube.com/embed/Ud84sM958Zc", desc: "" },
-    { title: "주름살", video: "https://www.youtube.com/embed/QOOOSnW5uKI", desc: "" },
-    { title: "그래, 우리", video: "https://www.youtube.com/embed/LD6SzR4N60A", desc: "" }
+    { title: "청춘낙뢰", video: "https://www.youtube-nocookie.com/embed/y0bTpAB6yVM", desc: "청춘의 계절에 피할 수 없게 찾아오는 번개같은 고난을 노래한 곡." },
+    { title: "악몽", video: "https://www.youtube-nocookie.com/embed/RT_14dIo73k", desc: "수많은 악몽 속에서도 결국 빛나는 꿈으로 바꿔내고 싶은 의지를 담은 곡." },
+    { title: "High Tone Selector", video: "https://www.youtube-nocookie.com/embed/EWwPS_6Zym4", desc: "비바람조차 내 기분을 좌지우지하지 못하는 자존감과 긍정의 노래." },
+    { title: "자판기 커피", video: "https://www.youtube-nocookie.com/embed/xd5CW5XQZkI", desc: "자판기 커피처럼 작은 위안 속에서도 꿈을 향해 나아가는 현실 고백." },
+    { title: "바로 지금", video: "https://www.youtube-nocookie.com/embed/ifDkpqxJvoo", desc: "사랑과 우정의 찰나, 바로 지금 이 순간을 기억하는 연인의 이야기." },
+    { title: "사랑이란 무어라고 생각하십니까", video: "https://www.youtube-nocookie.com/embed/vgnZngee0-o", desc: "사랑의 의미를 묻는 진지한 질문을 담은 곡." },
+    { title: "Blue Till I Die", video: "https://www.youtube-nocookie.com/embed/_j3y2WsiPdA", desc: "작은 방에서도 큰 꿈을 꾸는 순애의 청춘송." },
+    { title: "모험 (8bit)", video: "https://www.youtube-nocookie.com/embed/Sh3OxoOmJTw", desc: "현실을 도피하고 싶지만 결국 다시 돌아오는 우리의 이야기." },
+    { title: "별꼬리", video: "https://www.youtube-nocookie.com/embed/Ws17EXP52SI", desc: "" },
+    { title: "눈사랑", video: "https://www.youtube-nocookie.com/embed/Ud84sM958Zc", desc: "" },
+    { title: "주름살", video: "https://www.youtube-nocookie.com/embed/QOOOSnW5uKI", desc: "" },
+    { title: "그래, 우리", video: "https://www.youtube-nocookie.com/embed/LD6SzR4N60A", desc: "" }
   ];
 
   const performanceList = [
